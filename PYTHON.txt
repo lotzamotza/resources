@@ -1,0 +1,23 @@
+PYTHON
+
+  LIST METHODS
+     append: adds elements to the end of a LIST
+         ex: my_list = [1, 2, 3,]
+             my_list.append(4)
+            # result: my_list = [1, 2, 3, 4]
+     index: returns the numeric location of a value in a list
+         ex: my_list = [1, 2, 3, 4]
+             my_list.index(3)
+            # result: 2
+     len: returns the number of elements in a list and can be used with other iterable types
+         ex: my_list = [1, 2, 3, 4]
+             length_of_list = len(my_list)
+            # result: length_of_list = 4
+     remove: deletes a given value from a list
+         ex: my_list = [1, 2, 3, 4]
+         my_list.remove(3)
+     pop: remove a value by its index 
+         ex: my_list = [1, 2, 3, 4]
+             popped_element = my_list.pop(2)
+             # result: popped element = 3, my_list = [1, 2, 3]
+             
